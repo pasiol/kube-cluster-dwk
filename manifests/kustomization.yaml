@@ -4,5 +4,5 @@ resources:
 - manifests/deployment.yaml
 images:
 - name: IMAGE_PLACEHOLDER
-  newName: pasiol/dwk-gitops-demo-app
-  newTag: fdafd7088d04892815ed037cf30ca4f61c7af2f7
+  newName: pasiol/gitops-demo-app
+  newTag: d5a2977b1ee1665189949e8f5c35c335994f8028
