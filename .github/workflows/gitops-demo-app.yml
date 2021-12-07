@@ -2,7 +2,7 @@ name: Release gitops-demo-app
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - '/app/**'
       - '.github/workflows/gitops-app.yml'
@@ -51,4 +51,4 @@ jobs:
         add: 'manifests/kustomization.yaml'
         message: New version release for gitops-demo-app ${{ github.sha }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
