@@ -1,12 +1,8 @@
-name: Release gitops-demo-app
+name: Release gitops demo app
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - '/app/**'
-      - '.github/workflows/gitops-app.yml'
+    branches: ['main']
 
 jobs:
   build:
